@@ -7,6 +7,7 @@ class TPQueue {
  private:
     T arr[size] = {0};
     int left, right, count;
+ 
  public:
     TPQueue(): left(0), right(0), count(0) {}
     void push(const T& sm) {
